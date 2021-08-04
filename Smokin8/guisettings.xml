@@ -296,7 +296,7 @@
     <setting id="audiooutput.guisoundmode" default="true">1</setting>
     <setting id="lookandfeel.soundskin" default="true">resource.uisounds.kodi</setting>
     <setting id="audiooutput.passthrough" default="true">false</setting>
-    <setting id="audiooutput.passthroughdevice" default="true">DIRECTSOUND:default</setting>
+    <setting id="audiooutput.passthroughdevice">DIRECTSOUND:{594543F6-3963-425B-978E-F269FC4541DF}</setting>
     <setting id="audiooutput.ac3passthrough" default="true">true</setting>
     <setting id="audiooutput.ac3transcode" default="true">false</setting>
     <setting id="audiooutput.eac3passthrough" default="true">false</setting>
