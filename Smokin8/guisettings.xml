@@ -34,7 +34,7 @@
     <setting id="lookandfeel.startupaction" default="true">0</setting>
     <setting id="lookandfeel.startupwindow" default="true">10000</setting>
     <setting id="window.width">1920</setting>
-    <setting id="window.height">1052</setting>
+    <setting id="window.height">1012</setting>
     <setting id="videolibrary.updateonstartup" default="true">false</setting>
     <setting id="videolibrary.backgroundupdate" default="true">false</setting>
     <setting id="musiclibrary.updateonstartup" default="true">false</setting>
@@ -106,7 +106,7 @@
     <setting id="pictures.usetags" default="true">true</setting>
     <setting id="pictures.generatethumbs" default="true">true</setting>
     <setting id="pictures.showvideos" default="true">true</setting>
-    <setting id="pictures.displayresolution">15</setting>
+    <setting id="pictures.displayresolution" default="true">14</setting>
     <setting id="scrapers.moviesdefault" default="true">metadata.themoviedb.org.python</setting>
     <setting id="scrapers.tvshowsdefault" default="true">metadata.tvshows.themoviedb.org.python</setting>
     <setting id="scrapers.musicvideosdefault" default="true">metadata.local</setting>
@@ -160,8 +160,8 @@
     <setting id="subtitles.parsecaptions" default="true">false</setting>
     <setting id="subtitles.align" default="true">0</setting>
     <setting id="subtitles.stereoscopicdepth" default="true">0</setting>
-    <setting id="subtitles.font">Roboto-Bold.ttf</setting>
-    <setting id="subtitles.charset">CP1250</setting>
+    <setting id="subtitles.font" default="true">arial.ttf</setting>
+    <setting id="subtitles.charset" default="true">DEFAULT</setting>
     <setting id="subtitles.height" default="true">28</setting>
     <setting id="subtitles.style" default="true">1</setting>
     <setting id="subtitles.color" default="true">1</setting>
@@ -224,7 +224,7 @@
     <setting id="pvrtimers.hidedisabledtimers" default="true">false</setting>
     <setting id="services.devicename" default="true">Kodi</setting>
     <setting id="services.zeroconf" default="true">false</setting>
-    <setting id="services.deviceuuid">7b0fd80f-3a85-443a-b2c0-a80e661061bd</setting>
+    <setting id="services.deviceuuid">db482680-49ef-4e32-b528-25aa9251bf66</setting>
     <setting id="services.webserver" default="true">false</setting>
     <setting id="services.webserverport" default="true">8080</setting>
     <setting id="services.webserverauthentication" default="true">true</setting>
@@ -296,7 +296,7 @@
     <setting id="audiooutput.guisoundmode" default="true">1</setting>
     <setting id="lookandfeel.soundskin" default="true">resource.uisounds.kodi</setting>
     <setting id="audiooutput.passthrough" default="true">false</setting>
-    <setting id="audiooutput.passthroughdevice">DIRECTSOUND:{594543F6-3963-425B-978E-F269FC4541DF}</setting>
+    <setting id="audiooutput.passthroughdevice">DIRECTSOUND:{0EF2D524-C316-425D-B197-A8DA0BF93906}</setting>
     <setting id="audiooutput.ac3passthrough" default="true">true</setting>
     <setting id="audiooutput.ac3transcode" default="true">false</setting>
     <setting id="audiooutput.eac3passthrough" default="true">false</setting>
@@ -349,8 +349,8 @@
     </audio>
     <resolutions />
     <general>
-        <systemtotaluptime>2024</systemtotaluptime>
-        <settinglevel>1</settinglevel>
+        <systemtotaluptime>0</systemtotaluptime>
+        <settinglevel>3</settinglevel>
         <eventlog>
             <level>0</level>
             <showhigherlevels>true</showhigherlevels>
