@@ -7,8 +7,8 @@
     <setting id="lookandfeel.skin">skin.aeon.nox.silvo</setting>
     <setting id="lookandfeel.skintheme" default="true">SKINDEFAULT</setting>
     <setting id="lookandfeel.skincolors" default="true">SKINDEFAULT</setting>
-    <setting id="lookandfeel.font" default="true">Default</setting>
-    <setting id="lookandfeel.skinzoom" default="true">0</setting>
+    <setting id="lookandfeel.font">NoTo</setting>
+    <setting id="lookandfeel.skinzoom">2</setting>
     <setting id="lookandfeel.stereostrength" default="true">5</setting>
     <setting id="lookandfeel.enablerssfeeds" default="true">false</setting>
     <setting id="lookandfeel.rssedit" default="true" />
@@ -193,7 +193,7 @@
     <setting id="epg.selectaction" default="true">2</setting>
     <setting id="epg.hidenoinfoavailable" default="true">true</setting>
     <setting id="epg.epgupdate" default="true">120</setting>
-    <setting id="epg.preventupdateswhileplayingtv" default="true">false</setting>
+    <setting id="epg.preventupdateswhileplayingtv">true</setting>
     <setting id="pvrplayback.switchtofullscreenchanneltypes" default="true">3</setting>
     <setting id="pvrplayback.signalquality" default="true">true</setting>
     <setting id="pvrplayback.confirmchannelswitch" default="true">true</setting>
@@ -325,7 +325,7 @@
     <setting id="addons.unknownsources">true</setting>
     <setting id="addons.updatemode" default="true">0</setting>
     <setting id="debug.showloginfo" default="true">false</setting>
-    <setting id="debug.extralogging" default="true">false</setting>
+    <setting id="debug.extralogging">true</setting>
     <setting id="debug.setextraloglevel" default="true" />
     <setting id="debug.screenshotpath" default="true" />
     <setting id="eventlog.enabled" default="true">true</setting>
@@ -349,7 +349,7 @@
     </audio>
     <resolutions />
     <general>
-        <systemtotaluptime>0</systemtotaluptime>
+        <systemtotaluptime>277</systemtotaluptime>
         <settinglevel>3</settinglevel>
         <eventlog>
             <level>0</level>
