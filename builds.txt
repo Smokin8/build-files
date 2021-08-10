@@ -7,7 +7,7 @@ name="Smokin8 Build"
 version="1.2"
 url="https://www.dropbox.com/s/4fjtu7h82r0rd87/userdata.zip?dl=1"
 =======
-version="1.0"
+version="1.2"
 url="https://www.dropbox.com/s/n9lt0l54ymyletf/Kodi.7z?dl=1"
 >>>>>>> master
 minor="http://"
