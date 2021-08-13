@@ -7,7 +7,7 @@
     <setting id="lookandfeel.skin">skin.aeon.nox.silvo</setting>
     <setting id="lookandfeel.skintheme" default="true">SKINDEFAULT</setting>
     <setting id="lookandfeel.skincolors" default="true">SKINDEFAULT</setting>
-    <setting id="lookandfeel.font">NoTo</setting>
+    <setting id="lookandfeel.font">Play Regular</setting>
     <setting id="lookandfeel.skinzoom">2</setting>
     <setting id="lookandfeel.stereostrength" default="true">5</setting>
     <setting id="lookandfeel.enablerssfeeds" default="true">false</setting>
@@ -106,7 +106,7 @@
     <setting id="pictures.usetags" default="true">true</setting>
     <setting id="pictures.generatethumbs" default="true">true</setting>
     <setting id="pictures.showvideos" default="true">true</setting>
-    <setting id="pictures.displayresolution" default="true">14</setting>
+    <setting id="pictures.displayresolution">15</setting>
     <setting id="scrapers.moviesdefault" default="true">metadata.themoviedb.org.python</setting>
     <setting id="scrapers.tvshowsdefault" default="true">metadata.tvshows.themoviedb.org.python</setting>
     <setting id="scrapers.musicvideosdefault" default="true">metadata.local</setting>
@@ -181,10 +181,10 @@
     <setting id="accessibility.subhearing" default="true">false</setting>
     <setting id="pvrmanager.preselectplayingchannel" default="true">false</setting>
     <setting id="pvrmanager.syncchannelgroups" default="true">true</setting>
-    <setting id="pvrmanager.backendchannelorder" default="true">true</setting>
+    <setting id="pvrmanager.backendchannelorder">false</setting>
     <setting id="pvrmanager.usebackendchannelnumbersalways" default="true">false</setting>
     <setting id="pvrmanager.usebackendchannelnumbers" default="true">false</setting>
-    <setting id="pvrmanager.startgroupchannelnumbersfromone" default="true">false</setting>
+    <setting id="pvrmanager.startgroupchannelnumbersfromone">true</setting>
     <setting id="pvrmenu.displaychannelinfo" default="true">5</setting>
     <setting id="pvrmenu.closechannelosdonswitch" default="true">true</setting>
     <setting id="pvrmenu.iconpath" default="true" />
@@ -192,8 +192,8 @@
     <setting id="epg.futuredaystodisplay" default="true">3</setting>
     <setting id="epg.selectaction" default="true">2</setting>
     <setting id="epg.hidenoinfoavailable" default="true">true</setting>
-    <setting id="epg.epgupdate" default="true">120</setting>
-    <setting id="epg.preventupdateswhileplayingtv">true</setting>
+    <setting id="epg.epgupdate">60</setting>
+    <setting id="epg.preventupdateswhileplayingtv" default="true">false</setting>
     <setting id="pvrplayback.switchtofullscreenchanneltypes" default="true">3</setting>
     <setting id="pvrplayback.signalquality" default="true">true</setting>
     <setting id="pvrplayback.confirmchannelswitch" default="true">true</setting>
@@ -349,8 +349,8 @@
     </audio>
     <resolutions />
     <general>
-        <systemtotaluptime>277</systemtotaluptime>
-        <settinglevel>3</settinglevel>
+        <systemtotaluptime>881</systemtotaluptime>
+        <settinglevel>2</settinglevel>
         <eventlog>
             <level>0</level>
             <showhigherlevels>true</showhigherlevels>
