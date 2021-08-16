@@ -8,7 +8,7 @@
     <setting id="lookandfeel.skintheme" default="true">SKINDEFAULT</setting>
     <setting id="lookandfeel.skincolors" default="true">SKINDEFAULT</setting>
     <setting id="lookandfeel.font">Play Regular</setting>
-    <setting id="lookandfeel.skinzoom">2</setting>
+    <setting id="lookandfeel.skinzoom" default="true">0</setting>
     <setting id="lookandfeel.stereostrength" default="true">5</setting>
     <setting id="lookandfeel.enablerssfeeds" default="true">false</setting>
     <setting id="lookandfeel.rssedit" default="true" />
@@ -50,8 +50,8 @@
     <setting id="filelists.ignorethewhensorting" default="true">true</setting>
     <setting id="filelists.showextensions" default="true">true</setting>
     <setting id="filelists.showaddsourcebuttons" default="true">true</setting>
-    <setting id="filelists.showhidden" default="true">false</setting>
-    <setting id="filelists.allowfiledeletion" default="true">false</setting>
+    <setting id="filelists.showhidden">true</setting>
+    <setting id="filelists.allowfiledeletion">true</setting>
     <setting id="myvideos.selectaction" default="true">1</setting>
     <setting id="myvideos.usetags" default="true">false</setting>
     <setting id="myvideos.extractflags" default="true">true</setting>
@@ -179,20 +179,20 @@
     <setting id="accessibility.audiovisual" default="true">false</setting>
     <setting id="accessibility.audiohearing" default="true">false</setting>
     <setting id="accessibility.subhearing" default="true">false</setting>
-    <setting id="pvrmanager.preselectplayingchannel" default="true">false</setting>
+    <setting id="pvrmanager.preselectplayingchannel">true</setting>
     <setting id="pvrmanager.syncchannelgroups" default="true">true</setting>
-    <setting id="pvrmanager.backendchannelorder">false</setting>
+    <setting id="pvrmanager.backendchannelorder" default="true">true</setting>
     <setting id="pvrmanager.usebackendchannelnumbersalways" default="true">false</setting>
-    <setting id="pvrmanager.usebackendchannelnumbers" default="true">false</setting>
-    <setting id="pvrmanager.startgroupchannelnumbersfromone">true</setting>
+    <setting id="pvrmanager.usebackendchannelnumbers">true</setting>
+    <setting id="pvrmanager.startgroupchannelnumbersfromone" default="true">false</setting>
     <setting id="pvrmenu.displaychannelinfo" default="true">5</setting>
     <setting id="pvrmenu.closechannelosdonswitch" default="true">true</setting>
     <setting id="pvrmenu.iconpath" default="true" />
     <setting id="epg.pastdaystodisplay" default="true">1</setting>
-    <setting id="epg.futuredaystodisplay" default="true">3</setting>
+    <setting id="epg.futuredaystodisplay">7</setting>
     <setting id="epg.selectaction" default="true">2</setting>
     <setting id="epg.hidenoinfoavailable" default="true">true</setting>
-    <setting id="epg.epgupdate">60</setting>
+    <setting id="epg.epgupdate" default="true">120</setting>
     <setting id="epg.preventupdateswhileplayingtv" default="true">false</setting>
     <setting id="pvrplayback.switchtofullscreenchanneltypes" default="true">3</setting>
     <setting id="pvrplayback.signalquality" default="true">true</setting>
@@ -224,7 +224,7 @@
     <setting id="pvrtimers.hidedisabledtimers" default="true">false</setting>
     <setting id="services.devicename" default="true">Kodi</setting>
     <setting id="services.zeroconf" default="true">false</setting>
-    <setting id="services.deviceuuid">db482680-49ef-4e32-b528-25aa9251bf66</setting>
+    <setting id="services.deviceuuid">746012a4-4f35-40b2-b2a0-0d1dc696cfd4</setting>
     <setting id="services.webserver" default="true">false</setting>
     <setting id="services.webserverport" default="true">8080</setting>
     <setting id="services.webserverauthentication" default="true">true</setting>
@@ -325,7 +325,7 @@
     <setting id="addons.unknownsources">true</setting>
     <setting id="addons.updatemode" default="true">0</setting>
     <setting id="debug.showloginfo" default="true">false</setting>
-    <setting id="debug.extralogging">true</setting>
+    <setting id="debug.extralogging" default="true">false</setting>
     <setting id="debug.setextraloglevel" default="true" />
     <setting id="debug.screenshotpath" default="true" />
     <setting id="eventlog.enabled" default="true">true</setting>
@@ -349,8 +349,8 @@
     </audio>
     <resolutions />
     <general>
-        <systemtotaluptime>881</systemtotaluptime>
-        <settinglevel>2</settinglevel>
+        <systemtotaluptime>1923</systemtotaluptime>
+        <settinglevel>3</settinglevel>
         <eventlog>
             <level>0</level>
             <showhigherlevels>true</showhigherlevels>
@@ -441,7 +441,7 @@
             <sortattributes>0</sortattributes>
         </musicnavsongs>
         <pictures>
-            <viewmode>720896</viewmode>
+            <viewmode>458803</viewmode>
             <sortmethod>1</sortmethod>
             <sortorder>1</sortorder>
             <sortattributes>0</sortattributes>
